@@ -1,0 +1,37 @@
+h1 {
+  border: 2px solid white;
+  padding:25px;
+  text-align:center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:rgb(32, 45, 61);
+  color:whitesmoke;
+}
+
+.App-lists {
+  margin-left:150px;
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  align-content: center;
+}
+
+li {
+  text-align: center;
+}
+
+.App-list {
+  font-size:23px;
+  flex-wrap:wrap;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin:10px;
+  padding:15px;
+}
+
+.App-list:hover {
+  font-size:30px;
+  color:whitesmoke;
+  border-radius:0 0 15px 15px;
+  background-color:rgb(32, 45, 61);
+  box-shadow: 0 5px 8px rgba(0,0,0,0.2),0 7px 20px 0 rgb(0,0,0,0.17);
+}
